@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.css">
+<link rel="stylesheet" href="css/custom.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+<style type="text/css">
+  body {
+    padding-top: 20px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  border-radius: .5rem;
+}
+</style>
+
+ </head>
+<body>
+<div class="container">
+  <div class="row">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-none d-lg-block">
+            <div class="slide-box">
+              <div class="col-lg-3"><a href="https://www.google.com" target="_blank"><img src="img/room1.jpg" width="2000" alt="First slide"></a></div>
+              <div class="col-lg-3"><a href="https://www.google.com" target="_blank"><img src="img/room2.jpg" width="2000" alt="First slide"></a></div>
+              <div class="col-lg-3"><a href="https://www.google.com" target="_blank"><img src="img/room3.jpg" width="2000" alt="First slide"></a></div>
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          <div class="d-none d-lg-block">
+            <div class="slide-box">
+              <img src="img/care1.jpg" width="200" alt="Second slide">
+              <img src="img/care2.jpg" width="200" alt="Second slide">
+              <img src="img/care3.jpg" width="200" alt="Second slide">             
+            </div>
+            
+          </div>         
+        </div>
+        <div class="carousel-item">
+          <div class="d-none d-lg-block">
+            <div class="slide-box">
+              <img src="img/care4.jpg" width="200" alt="Second slide">
+              <img src="img/care5.jpg" width="200" alt="Second slide">
+              <img src="img/care6.jpg" width="200" alt="Second slide">             
+            </div>
+            
+          </div>         
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</div>
+   
+	  
+
+</body>
+</html>
